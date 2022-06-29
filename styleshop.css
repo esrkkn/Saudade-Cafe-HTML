@@ -1,0 +1,81 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #FDDDB6;
+  width: 100%;
+  height: 100vh;
+}
+header {
+  width: 100%;
+  height: 110px;
+  margin-bottom: 50px;
+  margin-top: 5px;
+  background-image: url(/images/FD9ED1BA-3E5C-49AD-BE95-8F869419CDF6.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 260px;
+  height: 580px;
+  margin: auto;
+  text-align: center;
+  font-family: "Cormorant Upright", serif;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.card button {
+  border: none;
+  padding: 15px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.card img{
+    transition: transform .2s;
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.card button:hover {
+  opacity: 0.7;
+}
+.container {
+  display: flex;
+  padding-right: 10px;
+ 
+}
+h2{
+  color: #759484;
+  text-shadow: 1px 1px 0px rgba(150, 150, 150, 1);
+}
+.goback{
+  width: 80px;
+  height: 30px;
+ position: absolute;
+ top: 75px;
+ left: 30px;
+  background-color: lightcoral;
+  color: antiquewhite;
+  box-shadow: 0px 0px 9px -1px rgb(49, 49, 49);
+  border-style: none;
+  border-radius: 5px;
+  opacity: 0.7;
+
+}
+.goback:hover{
+  opacity: 1;
+}
